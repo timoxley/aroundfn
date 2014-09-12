@@ -1,0 +1,20 @@
+{
+  "name": "aroundfn",
+  "version": "0.0.1",
+  "description": "Execute a function around another function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^2.13.3"
+  },
+  "dependencies": {
+    "sliced": "0.0.5"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
